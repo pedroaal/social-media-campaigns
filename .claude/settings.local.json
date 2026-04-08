@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import sys,json; [print\\(json.loads\\(l\\).get\\('message',{}\\).get\\('message',{}\\).get\\('content',''\\)[:200] if isinstance\\(json.loads\\(l\\).get\\('message',{}\\).get\\('message',{}\\).get\\('content',''\\),str\\) else ''\\) for l in sys.stdin if l.strip\\(\\)]\")",
+      "Bash(grep -o '\"stop_reason\":\"[^\"]*\"\\\\|\"type\":\"[^\"]*\"\\\\|\"text\":\"[^\"]\\\\{0,100\\\\}')",
+      "Bash(python3 -c ':*)",
+      "mcp__plugin_oh-my-claudecode_t__state_clear",
+      "mcp__plugin_oh-my-claudecode_t__state_list_active"
+    ]
+  }
+}

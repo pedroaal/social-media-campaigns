@@ -5,7 +5,19 @@
       "Bash(grep -o '\"stop_reason\":\"[^\"]*\"\\\\|\"type\":\"[^\"]*\"\\\\|\"text\":\"[^\"]\\\\{0,100\\\\}')",
       "Bash(python3 -c ':*)",
       "mcp__plugin_oh-my-claudecode_t__state_clear",
-      "mcp__plugin_oh-my-claudecode_t__state_list_active"
+      "mcp__plugin_oh-my-claudecode_t__state_list_active",
+      "WebSearch",
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:www.cybo.com)",
+      "WebFetch(domain:taurusgymmanta.ec)",
+      "WebFetch(domain:gymnavigator.com)",
+      "WebFetch(domain:gimnasio.cybo.com)",
+      "WebFetch(domain:gimnasios.guiabbb.ec)",
+      "WebFetch(domain:super-saiya-gym.jimdosite.com)",
+      "WebFetch(domain:horarios.ec)",
+      "WebFetch(domain:www.primicias.ec)",
+      "WebFetch(domain:www.nexdu.com)"
     ]
   }
 }
